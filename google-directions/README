@@ -1,0 +1,49 @@
+README
+Language: C                                                              
+                                             
+Jason Heron & Igor Shvartser
+jasonaheron@ucsc.edu, ishvarts@ucsc.edu  
+5/29/13
+CMPS101 Program 4: Google Directions
+Professor D. Helmbold
+UC Santa Cruz
+
+The program reads in data and uses a graph abstract data type to
+mimic a Google-Maps-type feature in which we're able to find the
+distance from one point to another using breadth-first-search.
+
+Files:
+
+	***** main.c *****
+	This file is responsible for scanning data from a specified file,
+	creating a graph, and implementing a breadth first search.
+
+	***** graph.c *****
+	This file is responsible for creating a graph structure, 
+	and implementing all relevant functions (breadth first search,
+	cleaning the graph, freeing memory on the graph, adding edges,
+	and finding distances). 
+
+	***** graph.h *****
+	Outline of functions used in graph.c
+
+	***** graphDriver.c *****
+	This file is responsible for testing the graph abstract data 
+	type implemented in graph.c
+
+	***** list.c *****
+	This file is responsible for implementing a linked list
+	and all of the necessary manipulator/access functions.
+
+	***** list.h *****
+	Outline of functions used in list.c
+
+	***** listDriver.c *****
+	This file is responsible for testing the list abstract data
+	type implemented in list.c
+
+	***** Makefile *****
+	Compiles all relevant files.
+
+	***** README *****
+	The file outlining the functions of each piece of the assignment.
