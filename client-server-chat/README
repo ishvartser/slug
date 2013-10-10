@@ -1,0 +1,16 @@
+
+ Igor Shvartser, ishvarts@ucsc.edu
+ Professor W. Mackey
+ CMPS 109: Advanced Programming
+ Assignment 5: Threads, Sockets, Client/Server
+ August 30, 2013
+
+In this assignment we write a program in Java to implement a client/server 
+chatter application. We will be making use of internet connections 
+using sockets. Each process will consist of several threads.
+
+To specify a server:
+    chatter [-@ ﬂags] port
+
+To specify a client:
+    chatter [-@ ﬂags] hostname:port username
